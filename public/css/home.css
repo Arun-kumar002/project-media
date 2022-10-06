@@ -1,0 +1,119 @@
+#home{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+
+}
+
+#home > article{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#home > article >  aside{
+    width: 25%;
+    height: 76vh;
+    border: 1px solid #555;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    background-color: white;
+    padding: 0 30px;
+}
+
+#home > article >  aside > figure{
+    width: 30%;
+    height: 20%;
+}
+
+#home > article >  aside > p{
+    text-transform: capitalize;
+    color: black;
+}
+
+#home > article >  aside :nth-child(2){
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#home > article >  aside :nth-child(3),#home > article >  aside :nth-child(4),#home > article >  aside :nth-child(5){
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 20px;
+    /* display: inline; */
+    border-bottom: 1px solid #bbb;
+}
+
+#home > article >  aside > figure > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#home > article >  main{
+    width: 70%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+#home > article >  main > header{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #555;
+    display: flex;
+    background-color: white;
+    border-top: 6px solid #555;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#home > article >  main > header:hover{
+    box-shadow: 0px 0px 3px 2px #ccc;
+}
+
+#home > article >  main > header > figure{
+    width: 10%;
+    height: inherit;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 10px;
+    height: 62px;
+
+}
+
+#home > article >  main > header > figure > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#home > article >  main > header > form{
+    width: 87%;
+    height: inherit;
+    /* border: 1px solid black; */
+}
+
+#home > article >  main > header > form > input{
+    width: 60%;
+    height: inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+
+#home > article >  main > article{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid #555;
+    border-radius: 10px;
+}

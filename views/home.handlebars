@@ -1,0 +1,53 @@
+<section id="home">
+  <article>
+    <aside>
+      <figure>
+        <img src={{cuser.profilepic}} />
+      </figure>
+      <p> {{cuser.firstname}}</p>
+      <p>Number: {{cuser.mobile}}</p>
+      <p>Email: {{cuser.email}}</p>
+      <p>Location: {{cuser.location}}</p>
+      <h1>Friends</h1>
+      {{#each users}}
+      <p>{{firstname}}</p>
+      {{/each}}
+
+    </aside>
+
+    <main>
+      <header>
+        <figure>
+          <img src={{cuser.profilepic}} alt="ig" />
+        </figure>
+        <form action="/user/profile/post" method="post" enctype="multipart/form-data">
+          
+          <label for="statusimage">upload</label>
+          <input type="file" name="statusimage" id="statusimage"  hidden/>
+          <input name="userpost" placeholder="Tell to wrold what you feel...." id="userpost" />
+          <button>post</button>
+        </form>
+      </header>
+      {{#each posts}}
+      {{!-- <article><img src={{userpost}} /></article> --}}
+      {{/each}}
+    </main>
+  </article>
+</section>
+
+
+{{!-- chat box --}}
+<section id="chatting">
+  <article class="chatting-box">
+    <div>
+      {{! <img src="" alt="">logo }}
+      {{!-- <h1>PingMe</h1> --}}
+    </div>
+    <div class="message_area">
+
+    </div>
+    <div>
+      <textarea name="textarea" id="textarea" cols="30" rows="1" placeholder="write a message....."></textarea>
+    </div>
+  </article>
+</section>

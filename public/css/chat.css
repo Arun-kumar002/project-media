@@ -1,0 +1,90 @@
+#chatting{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;   
+    top: 190px;
+    left: 34%;
+}
+#chatting > .chatting-box {
+    width: 56.1%;
+    height: 90%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border: 1px solid royalblue;
+}
+#chatting > .chatting-box > .wtever{
+    width: 100%;
+    height: 16%;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+}
+#chatting > .chatting-box > .wtever > img{
+    height: 30px;
+    width: 30px;
+}
+#chatting > .chatting-box > .wtever > h1{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #444;
+    margin-left: 10px;
+}
+#chatting > .chatting-box > .message_area{
+    width: 90%;
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 15px;
+}
+
+#chatting > .chatting-box > div{
+    width:90%;
+}
+#chatting > .chatting-box > div > #textarea{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    outline: none;
+    display: flex;
+    align-items: flex-end;
+}
+.message{
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 90%;
+    position: relative;
+}
+.incoming{
+    background: #8D949E;
+    color: #fff;
+    border-radius: 5px;
+}
+.outgoing{
+    background: #3578E5;
+    color: #fff;
+    height: 10px;
+    border-radius: 5px;
+    /* margin-left: auto; */
+}
+.message > h4{
+    position: absolute;
+    top: -20px;
+    left:0;
+    color:#333;
+    font-size: 14px;
+}
+
+
+

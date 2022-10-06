@@ -1,0 +1,72 @@
+<section id="profile">
+  <article>
+    <form action="/user/profile" method="post" enctype="multipart/form-data">
+      <header>
+        <label for="pic"><i class="fa-solid fa-pen-to-square"></i></label>
+        <input type="file" name="profilepic" id="pic" hidden />
+        <img src={{user.profilepic}} alt="" />
+
+        <div class="name">
+          <input type="text" name="firstname" placeholder="firstname" value={{user.firstname}} />
+          <input type="text" name="lastname" placeholder="lastname" value={{user.lstname}} />
+        </div>
+
+        <div class="status">
+          <input type="text" name="status" placeholder="status" value={{user.status}} />
+        </div>
+
+        <divclass="social_media">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+
+          <div class="pd">
+            <label><i class="fa-solid fa-mobile-screen-button"></i></label>
+            <input type="text" name="mobile" placeholder="Number" value={{user.mobile}} />
+          </div>
+
+          <div class="pd">
+            <label><i class="fa-solid fa-envelope-circle-check"></i></label>
+            <input type="text" name="email" placeholder="email" value={{user.email}} />
+          </div>
+
+          <div class="pd">
+            <label><i class="fa-solid fa-calendar"></i></label>
+            <input type="text" name="dob" placeholder="dob" value={{user.dob}} />
+          </div>
+
+          <div class="pd">
+            <label><i class="fa-solid fa-person-half-dress"></i></label>
+            <input type="text" name="gender" placeholder="gender" value={{user.gender}} />
+          </div>
+
+          <div class="pd">
+            <label><i class="fa-solid fa-heart"></i></label>
+            <input type="text" name="relationship" placeholder="relationship" value={{user.relationship}} />
+          </div>
+
+          <div class="pd">
+            <label><i class="fa-solid fa-location-pin"></i></label>
+            <input type="text" name="location" placeholder="location" value={{user.location}} />
+          </div>
+      </header>
+
+      <aside class="right">
+        <main>
+          <label><i class="fa-solid fa-address-card"></i> ABOUT ME</label>
+          <input type="text" name="details" placeholder="details" value={{user.details}} />
+        </main>
+        <footer>
+          <div>
+            <input type="text" name="status" placeholder="status" value={{user.status}} />
+          </div>
+          <div>
+            <button>submit</button>
+
+          </div>
+        </footer>
+      </aside>
+    </form>
+  </article>
+</section>

@@ -1,0 +1,86 @@
+<section id="login">
+    <article>
+        <aside>
+            <h1>Register</h1>
+            <figure>
+                <img src="/images/login.jpg" alt="" />
+            </figure>
+            <p> WE DO, is a global freelancing platform and social
+                networking where businesses and independent professionals
+                connect and collaborate globally.</p>
+
+        </aside>
+        <div class="registerForm">
+            <form action="/user/register" method="post" novalidate>
+                <input type="text" id="firstName" name="firstname" placeholder="Enter First Name" required />
+                <input type="text" id="lastName" name="lastname" placeholder="Enter Last Name" required />
+                <input type="number" name="mobile" placeholder="Enter Mobile Number" required />
+                <input type="email" name="email" placeholder="enter email" required />
+                <input type="password" name="password" placeholder="enter password" required />
+                <p>By Continuing, you agree to "WE DO" Terms and Privacy Policy</p>
+                <button>Register</button>
+                {{!-- <p>Or</p> --}}
+                {{!-- <a name="registerLink" href="/user/login">Login</a> --}}
+                {{!-- <button>LogUP</button> --}}
+            </form>
+        </div>
+    </article>
+</section>
+
+{{!--
+<section id="wrapper">
+
+    <div id="registerBlock">
+        <article id="left">
+
+            <figure>
+                <img src="/images/login.jpg" alt="lOgo">
+            </figure>
+            <div>
+                Project media, is a global freelancing platform and social
+                networking where businesses and independent professionals
+                connect and collaborate globally.
+            </div>
+            <figure>
+                <img src="cm-main-img.png" alt="back">
+            </figure>
+
+        </article>
+
+        <article id="right">
+            <h2>Register</h2>
+            <form action="/user/register" method="post" novalidate>
+                <div>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required />
+                </div>
+
+                <div>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required />
+                </div>
+
+                <div>
+                    <input type="number" name="mobile" placeholder="Enter Mobile Number" required />
+                </div>
+
+                <div>
+                    <input type="email" name="email" placeholder="Enter Email" required />
+                </div>
+
+                <div>
+                    <input type="password" name="password" placeholder="Enter password" required />
+                </div>
+
+
+
+                <button>Register</button>
+
+                <div class="link">
+                    <a id="link" name="loginLink" href="./_login.handlebars">Login</a>
+                </div>
+
+
+            </form>
+        </article>
+    </div>
+
+</section> --}}

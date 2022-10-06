@@ -1,0 +1,225 @@
+/* 
+:root {
+    --light: #f8f9fa;
+    --gray: #6c757d;
+    /* --background: #e75348; */
+    --background: #efefef;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+        border-radius: 6%;
+}
+
+section#wrapper{
+       height: 100%;
+    width: 100%;
+    background: var(--background);
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ section#wrapper > #registerBlock{
+    
+    height: 75%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+    background: var(--light);
+    gap: 2%;
+}
+
+ section#wrapper > div#registerBlock > article#left {
+    flex-basis: 50%;
+    height: 100%;
+    /* width: 50%; */
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15%;
+    /* position: absolute; */
+}
+
+section#wrapper > div#registerBlock > article#left > figure:nth-child(1) {
+/* position: relative; */
+    /* top: 3%;    */
+     /* width: 32%; */
+}
+
+section#wrapper > div#registerBlock > article#left > figure:nth-child(1) > img {
+height: 100%;
+height: 100%;
+} 
+section#wrapper > div#registerBlock > article#left > div {
+    top: 3%;
+    align-content: unset;
+    width: 85%;
+    text-align: justify;
+}
+
+section#wrapper > div#registerBlock > article#left > figure:nth-child(2) {
+
+    height: inherit;
+    width: auto;
+}
+
+section#wrapper > div#registerBlock > article#left > figure:nth-child(2) > img
+{
+    height: 80%;
+    width: 80%;
+}
+
+#wrapper > #registerBlock > article#right {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    flex-basis: 50%;
+    gap: 2%;}
+
+#wrapper > #registerBlock > article#right > form {
+
+height: 79%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid; */
+    gap: 0%;
+
+}
+
+#wrapper > #registerBlock > article#right > form > div:nth-child(1) {
+        flex-basis: 20%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 101%; */
+}
+
+
+input 
+{
+        height: 70%;
+    width: 20rem;
+}
+
+#wrapper > #registerBlock > article#right > form > div:nth-child(2) {
+        flex-basis: 20%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 20%; */
+    /* border: 2px solid; */
+}
+
+/* #wrapper > #registerBlock > article#right > form > div:nth-child(2) > input#lastName {
+        height: 70%;
+    width: 20rem;
+    /* width: 20rem; */
+/* } */
+
+#wrapper > #registerBlock > article#right > form > div:nth-child(3) {
+        flex-basis: 20%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 20%; */
+    /* border: 2px solid; */
+}
+
+/* #wrapper > #registerBlock > article#right > form > div:nth-child(3) > input {
+        height: 70%;
+    width: 20rem;
+} */
+
+#wrapper > #registerBlock > article#right > form > div:nth-child(4) {
+    flex-basis: 20%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 20%; */
+    /* border: 2px solid; */
+}
+
+/* #wrapper > #registerBlock > article#right > form > div:nth-child(4) > input {
+        height: 70%;
+    width: 20rem;
+} */
+
+#wrapper > #registerBlock > article#right > form > div:nth-child(5)  {
+        flex-basis: 20%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 20%; */
+    /* border: 2px solid; */
+}
+
+#wrapper > #registerBlock > article#right > form > div:nth-child(5) > input {
+        height: 70%;
+    width: 20rem;
+}
+
+#wrapper > #registerBlock > article#right > form > button {
+        font-size: large;
+    background-color: var(--background);
+    outline: none;
+    border: none;
+    flex-basis: 10%;
+    /* border: 2px solid; */
+    width: 50%;
+    color: var(--light);
+}
+
+#link{
+        color: var(--background);
+        font-size: 25px;
+}
+
+.link{
+    
+    /* border: 2px solid; */
+    height: 8%;
+    width: 69%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+/* login css */
+
+
+.wrapper > #loginBlock {
+    background-color: var(--background);
+}
+
+section.wrapper > div#loginBlock > article.right > form#login {
+    border: 2px solid black;
+}
+section.wrapper > article#loginBlock > h2 {
+    text-align: center;
+} */

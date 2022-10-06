@@ -1,0 +1,65 @@
+<section id="profile">
+  <article>
+    <form action="/user/profile" method="post" enctype="multipart/form-data">
+      <header>
+        <label for="pic"><i class="fa-solid fa-pen-to-square"></i></label>
+        <input type="file" name="profilepic" id="pic" hidden/>
+        {{!-- <img src="https://clipground.com/images/clipart-profile-6.jpg" alt="" n /> --}}
+        <img src={{user.profilepic}} alt="">
+        <div class="name">
+          <input type="text" name="firstname" placeholder="firstname" value={{user.firstname}} />
+          <input type="text" name="lastname" placeholder="lastname" value={{user.lastname}} />
+        </div>
+        <div class="status">
+          <input type="text" name="status" placeholder="status" value='' />
+        </div>
+        <div class="social_media"><i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <div class="pd">
+          <label><i class="fa-solid fa-mobile-screen-button"></i></label>
+          <input type="text" name="mobile" placeholder="Number" value={{user.mobile}} />
+        </div>
+        <div class="pd">
+          <label><i class="fa-solid fa-envelope-circle-check"></i></label>
+          <input type="text" name="email" placeholder="email" value={{user.email}} />
+        </div>
+        <div class="pd">
+          <label><i class="fa-solid fa-calendar"></i></label>
+          <input type="text" name="dob" placeholder="dob" value={{user.dob}} />
+        </div>
+        <div class="pd">
+          <label><i class="fa-solid fa-person-half-dress"></i></label>
+          <input type="text" name="gender" placeholder="gender" value={{user.gender}} />
+        </div>
+        <div class="pd">
+          <label><i class="fa-solid fa-heart"></i></label>
+          <input type="text" name="realtionship" placeholder="relationship"  />
+        </div>
+        <div class="pd">
+          <label><i class="fa-solid fa-location-dot"></i></i></label>
+          <input type="text" name="location" placeholder="location" value={{user.location}} />
+        </div>
+
+        <button>submit</button>
+      </header>
+
+      <aside class="right">
+        <main>
+          <div>
+            <label><i class="fa-solid fa-address-card"> <span>About Me</span> </i></label>
+            <input type="text" name="details" placeholder="About Me" value={{user.location}} />
+          </div>
+        </main>
+        <footer>
+
+          <div class="friends_list">
+            <h1 class="friends">Friends List</h1>
+          </div>
+
+        </footer>
+      </aside>
+    </form>
+  </article>
+</section>
